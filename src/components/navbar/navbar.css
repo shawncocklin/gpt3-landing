@@ -1,0 +1,50 @@
+.navbar, 
+.navbar-links-group, 
+.navbar-btn-group,
+.navbar-links-group_links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  justify-content: space-between;
+  padding: 2rem 6rem;
+}
+
+.navbar-links-group_logo {
+  margin-right: 68px;
+}
+
+.navbar-links-group_logo img {
+  width: 62px;
+  height: 16px;
+}
+
+.navbar-links-group_links {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  gap: 3rem;
+}
+
+.navbar-btn-group {
+  gap: 1.75rem;
+}
+
+.navbar-btn-group a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.navbar-btn-group button {
+  background: #FF4820;
+  border-radius: 5px;
+  border: none;
+  color: inherit;
+  
+  width: 152px;
+  height: 58px;
+
+  cursor: pointer;
+}
