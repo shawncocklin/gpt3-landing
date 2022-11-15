@@ -3,8 +3,6 @@ import headerImg from '../../assets/ai.png'
 import people from '../../assets/people.png'
 import './header.css'
 
-// TODO: style the input
-
 export default function Header() {
   return (
     <div className='header section-padding' id='home'>
@@ -13,7 +11,7 @@ export default function Header() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque commodi eos harum, nostrum excepturi qui ipsa totam tenetur! Natus doloribus unde culpa architecto quae et exercitationem quam reprehenderit modi.</p>
         <form className='header-content_email-input'>
           <label htmlFor="email"></label>
-          <input type="email" name='email' aria-label='email'/>
+          <input type="email" placeholder='Your Email Address' name='email' aria-label='email'/>
           <button type='button'>Get Started</button>
         </form>
         <div className='header-content_img-group'>
