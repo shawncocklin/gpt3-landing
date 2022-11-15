@@ -13,7 +13,7 @@
 }
 
 .navbar-links-group_logo {
-  margin-right: 68px;
+  margin-right: 60px;
 }
 
 .navbar-links-group_logo img {
@@ -23,22 +23,23 @@
 
 .navbar-links-group_links {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 25px;
-  gap: 3rem;
+  gap: 2rem;
   margin-block: 0;
+  padding: 0;
 }
 
 .navbar-btn-group {
   margin-left: auto;
   margin-right: 2rem;
-  gap: 1.75rem;
+  gap: 1.25rem;
   align-self: flex-end;
 }
 
 .navbar-btn-group a {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
 }
 
@@ -48,8 +49,8 @@
   border-radius: 5px;
   border: none;
   color: inherit;
-  padding: 1rem 2rem;
-
+  padding: .75rem 1.5rem;
+  font-size: 16px;
   cursor: pointer;
 }
 

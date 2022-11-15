@@ -35,7 +35,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 /* A elements that don't have a class get default styles */
@@ -106,6 +106,8 @@ a {
 .gradient-text {
   background: var(--gradient-text);
   background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .section-padding {
@@ -114,6 +116,10 @@ a {
 
 .section-margin {
   margin: 4rem 6rem;
+}
+
+.flow > *:where(:not(:first-child))  {
+  margin-top: var(--spacer, 1rem);
 }
 
 .scale-up-center {
