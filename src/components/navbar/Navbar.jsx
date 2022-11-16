@@ -14,11 +14,11 @@ export default function Navbar() {
           <img src={logo} alt="" />
         </div>
         <ul className="navbar-links-group_links" role='list'>
-          <li><a href="home">Home</a></li>
-          <li><a href="whatis">What is GPT3?</a></li>
-          <li><a href="features">Open AI</a></li>
-          <li><a href="possibility">Case Studies</a></li>
-          <li><a href="blog">Library</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#whatis">What is GPT3?</a></li>
+          <li><a href="#features">Open AI</a></li>
+          <li><a href="#possibility">Case Studies</a></li>
+          <li><a href="#blog">Library</a></li>
         </ul>
       </div>
       <div className="navbar-btn-group">

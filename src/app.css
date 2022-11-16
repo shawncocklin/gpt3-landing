@@ -74,11 +74,14 @@ select {
   }
 }
 /*#endregion RESET*/
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--color-bg);
   font-family: var(--font-family);
   color: #FFFFFF;
+  
 }
 
 a {
