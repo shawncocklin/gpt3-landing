@@ -113,6 +113,10 @@ a {
   color: transparent;
 }
 
+.gradient-bar {
+  background: var(--gradient-bar);
+}
+
 .section-padding {
   padding: 4rem 6rem;
 }

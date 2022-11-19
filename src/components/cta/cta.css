@@ -1,0 +1,32 @@
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+
+.cta-body_caption {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #0E0E0E;
+}
+
+.cta-body_message {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.cta-button button {
+  background: #000000;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
