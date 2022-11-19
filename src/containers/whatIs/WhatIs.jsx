@@ -12,6 +12,7 @@ export default function WhatIs() {
         title='What is GPT-3'
         body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima id laudantium explicabo sit quam provident cum quo, nam fugit eius dolores animi nemo optio enim at sapiente, expedita ullam necessitatibus?'
         row={true}
+        fontLarge={true}
       />
       <div className='whatis-content'>
         <h2 className='gradient-text'>
@@ -27,18 +28,21 @@ export default function WhatIs() {
       <div className='whatis-feature-list'>
         <Feature
           title='Chatbots'
-          body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima id laudantium explicabo sit quam provident cum quo, nam fugit eius dolores animi nemo optio enim at sapiente, expedita ullam necessitatibus?'
+          body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima id laudantium explicabo sit quam provident cum quo, nam fugit eius dolores animi nemo optio enim at sapiente,'
           row={false}
+          fontLarge={true}
         />
         <Feature
           title='Knowledgebase'
-          body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima id laudantium explicabo sit quam provident cum quo, nam fugit eius dolores animi nemo optio enim at sapiente, expedita ullam necessitatibus?'
+          body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima id laudantium explicabo sit quam provident cum quo, nam fugit eius dolores animi nemo optio enim at sapiente,'
           row={false}
+          fontLarge={true}
         />
         <Feature
           title='Education'
-          body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima id laudantium explicabo sit quam provident cum quo, nam fugit eius dolores animi nemo optio enim at sapiente, expedita ullam necessitatibus?'
+          body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima id laudantium explicabo sit quam provident cum quo, nam fugit eius dolores animi nemo optio enim at sapiente,'
           row={false}
+          fontLarge={true}
         />
       </div>
     </div>

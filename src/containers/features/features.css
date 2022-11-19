@@ -1,0 +1,25 @@
+.features-content {
+  display: flex;
+}
+
+.features-content_title {
+  flex: 2;
+}
+
+.features-content_title h2 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  margin-bottom: 2.5rem;
+  max-width: 500px;
+}
+
+.features-content_title a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.features-content_feature-list {
+  flex: 2;
+}
