@@ -1,0 +1,66 @@
+.footer {
+  background-color: var(--color-footer);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-cta {
+  --spacer: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 180px;
+}
+
+.footer-cta h2 {
+  max-width: 800px;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+
+.footer-cta button {
+  background: none;
+  border: 1px solid #FFFFFF;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.footer-nav {
+  --spacer: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  width: 100%;
+  padding-inline: 75px;
+}
+
+.footer-nav_logo {
+  max-width: 168px;
+}
+
+.footer-nav_logo img {
+  min-width: 120px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.footer-copywrite {
+  margin-top: 80px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+
+
+
+
