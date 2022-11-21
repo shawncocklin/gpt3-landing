@@ -4,7 +4,10 @@ import possibilityImg from '../../assets/possibility.png'
 
 export default function Possibility() {
   return (
-    <div className='possibility section-padding'>
+    <div
+      className='possibility section-padding'
+      id='possibility'
+    >
       <div className='possibility-content_img'>
         <img
           src={possibilityImg}

@@ -1,0 +1,48 @@
+.article {
+  background-color: var(--color-blog);
+  min-height: 330px;
+  color: #ffffff;
+  border-top-left-radius: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  padding-block: 13px;
+  height: 100%;
+}
+
+.article-content_date {
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+}
+
+.article-content_title {
+  font-weight: 800;
+  font-size: 19.3154px;
+  line-height: 30px;
+}
+
+.article-content_link {
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  margin-top: auto;
+}
+
+.featured {
+  grid-row: span 2;
+}
+
+.featured .article-content {
+  padding-block: 2rem 13px;
+}
+
+.featured .article-content_title {
+  font-size: 25.11px;
+}

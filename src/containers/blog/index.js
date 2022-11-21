@@ -1,0 +1,5 @@
+export { default as img01 } from '../../assets/blog01.png'
+export { default as img02 } from '../../assets/blog02.png'
+export { default as img03 } from '../../assets/blog03.png'
+export { default as img04 } from '../../assets/blog04.png'
+export { default as img05 } from '../../assets/blog05.png'
