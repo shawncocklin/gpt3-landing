@@ -11,7 +11,7 @@ export default function WhatIs() {
       <Feature
         title='What is GPT-3'
         body='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima id laudantium explicabo sit quam provident cum quo, nam fugit eius dolores animi nemo optio enim at sapiente, expedita ullam necessitatibus?'
-        row={true}
+        row={false}
         fontLarge={true}
       />
       <div className='whatis-content'>

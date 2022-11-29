@@ -4,7 +4,7 @@ import './cta.css'
 export default function Cta() {
   return (
     <div
-      className='cta section-padding section-margin gradient-bar'
+      className='cta section-margin gradient-bar'
       id='cta'
     >
       <div className='cta-body'>

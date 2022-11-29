@@ -3,6 +3,11 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 1rem;
+  padding: 3rem 4rem;
+}
+
+.cta-body {
+  flex: 1;
 }
 
 .cta-body_caption {

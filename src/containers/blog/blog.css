@@ -13,3 +13,13 @@
   grid-template-columns: minmax(420px, 1fr) repeat(auto-fit, minmax(330px, 1fr));
   gap: 49px;
 }
+
+@media screen and (max-width: 800px) {
+  .blog_article-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog_article-container > .featured {
+    grid-column: span 2;
+  }
+}

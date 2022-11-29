@@ -46,3 +46,14 @@
   display: flex;
   gap: 42px;
 }
+
+@media screen and (max-width: 800px) {
+  .whatis-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .whatis-feature-list {
+    flex-direction: column;
+  }
+}
