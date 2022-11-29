@@ -74,6 +74,33 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .footer-cta {
+    margin-block: 60px;
+  }
+  
+  .footer-cta h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .footer-nav {
+    --spacer: 1.25rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-nav_company {
+    margin-left: 1rem;
+  }
+
+  .footer-nav_contact {
+    grid-column: span 2;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+}
+
 
 
 

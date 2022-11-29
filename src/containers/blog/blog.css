@@ -1,4 +1,6 @@
-.blog {margin-bottom: 155px;}
+.blog {
+  margin-bottom: 155px;
+}
 .blog h2{
   font-weight: 800;
   font-size: 62px;
@@ -21,5 +23,21 @@
 
   .blog_article-container > .featured {
     grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blog {
+    margin-bottom: 60px;
+  }
+  
+  .blog h2{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 60px;
+  }
+  .blog_article-container {
+    display: flex;
+    flex-direction: column;
   }
 }
