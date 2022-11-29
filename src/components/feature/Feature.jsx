@@ -27,7 +27,11 @@ export default function Feature({ title, body, row, fontLarge }) {
   return (
     <div
       className='feature'
-      style={row ? { flexDirection: 'row' } : { flexDirection: 'column' }}
+      style={
+        row
+          ? { flexDirection: 'row', gap: 75 }
+          : { flexDirection: 'column', gap: 16 }
+      }
     >
       <div
         className='feature-title'

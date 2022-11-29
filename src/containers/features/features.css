@@ -21,5 +21,6 @@
 }
 
 .features-content_feature-list {
-  flex: 2;
+  --spacer: 2rem;
+  flex: 1;
 }

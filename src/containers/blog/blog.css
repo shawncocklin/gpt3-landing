@@ -10,6 +10,6 @@
 
 .blog_article-container {
   display: grid;
-  grid-template-columns: minmax(420px, 1fr) minmax(330px, 1fr) minmax(330px, 1fr);
+  grid-template-columns: minmax(420px, 1fr) repeat(auto-fit, minmax(330px, 1fr));
   gap: 49px;
 }
