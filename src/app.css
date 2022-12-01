@@ -91,6 +91,16 @@ a {
   text-decoration: none;
 }
 
+a:hover,
+a:focus-visible {
+  opacity: .5;
+}
+
+button:hover,
+button:focus-visible {
+  opacity: .8;
+}
+
 .gradient-bg {
   /* ff 3.6+ */
   background:-moz-radial-gradient(circle at 3% 25%, rgba(34, 136, 85, 0.2) 0%, rgba(4, 12, 24, 1) 100%);

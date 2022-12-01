@@ -27,10 +27,17 @@
   background: none;
   border: 1px solid #FFFFFF;
   font-size: 18px;
+  font-weight: 700;
   line-height: 21px;
   color: #FFFFFF;
   padding: 1rem 2rem;
   cursor: pointer;
+}
+
+.footer-cta button:hover,
+.footer-cta button:focus-visible {
+  color: var(--color-bg);
+  background-color: #fff; 
 }
 
 .footer-nav {
